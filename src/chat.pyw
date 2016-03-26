@@ -38,7 +38,7 @@ class ChatApplication(QtGui.QMainWindow):
 
         # change this to wherever your directory is
 
-        os.chdir('C:\Users\user\Desktop\ChatApp')
+        os.chdir('C:\Users\user\Desktop\GroupProject')
 
         # if brain file is in directory, load it else load aiml files and create brain file.
         if os.path.isfile('brain.brn'):

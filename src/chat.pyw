@@ -67,7 +67,9 @@ class ChatApplication(QtGui.QMainWindow):
             self.ui.listWidget.addItem(self.user_list[0] + ": " + message)
             self.previous_message = current_message
             self.ui.lineEdit_2.clear()
+
             self.respond(message)
+            self.save_conversation(message)
 
     def respond(self, message):
         response = (self.kernel.respond(message))
@@ -117,6 +119,17 @@ class ChatApplication(QtGui.QMainWindow):
         except:
 
             pass
+
+    def save_conversation(self, message):
+
+        print time.asctime(time.localtime(time.time()))
+
+        file = open('foo.txt', 'a')
+        #file = open(time.asctime(time.localtime(time.time())) + ".txt", 'w')
+        response = (self.kernel.respond(message))
+
+        file.write(self.user_list[0] + ": " + message + "\n")
+        file.write(self.user_list[1] + ": " + response + "\n")
 
 
 # Execute application

@@ -71,6 +71,8 @@ class ChatApplication(QtGui.QMainWindow):
             self.respond(message)
             self.save_conversation(message)
 
+            ##
+
     def respond(self, message):
         response = (self.kernel.respond(message))
         self.ui.listWidget.addItem(self.user_list[1] + ": " + response)

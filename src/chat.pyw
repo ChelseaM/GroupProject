@@ -71,7 +71,7 @@ class ChatApplication(QtGui.QMainWindow):
             self.respond(message)
             self.save_conversation(message)
 
-            ##
+            ###
 
     def respond(self, message):
         response = (self.kernel.respond(message))

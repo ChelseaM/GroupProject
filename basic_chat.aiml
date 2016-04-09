@@ -6,11 +6,8 @@
         <pattern>HELLO </pattern>
         <template>
           <random>
-            <li>Well, hello!</li>
-            <li>Hi there.</li>
-            <li>Hi</li>
-            <li>Hi there, how can I help you?</li>
-            <li>Hello, How can I help you?</li>
+            <li>How can I help you?</li>
+            <li>How can I help you?</li>
           </random>
         </template>
     </category>

@@ -47,19 +47,30 @@ class ChatApplication(QtGui.QMainWindow):
             self.kernel.bootstrap(learnFiles='startup.xml', commands='load aiml b')
             self.kernel.saveBrain('brain.brn')
 
+    def start_conversation(self):
+
+        self.clear_logs()
+
+        self.ui.listWidget.addItem(self.user_list[1] + ":" + "Hello")
+
     def send_message(self):
 
+        self.clear_logs()
+
+        #self.ui.listWidget.addItem(self.user_list[1] + ":" + "Hello")
         message = str(self.ui.lineEdit_2.text())
         current_message = message.lower()
 
-        if current_message == self.previous_message:
+        if current_message != "" and current_message == self.previous_message:
             self.ui.listWidget.addItem(self.user_list[0] + ": " + message)
             self.ui.lineEdit_2.clear()
             call_out = ["Please don't repeat yourself", "You are repeating yourself", "Theres no need for repetition", "Stop it", "Well thats annoying"]
             self.ui.listWidget.addItem(self.user_list[1] + ": " + random.choice(call_out))
 
+
         if current_message == "":
-            pass
+            error = QtGui.QMessageBox.information(self, 'Error', "You need to enter a message!", QtGui.QMessageBox.Ok)
+
             # add pop up window telling user to type text, null values is not allowed.
 
         if current_message != self.previous_message:
@@ -87,7 +98,8 @@ class ChatApplication(QtGui.QMainWindow):
 
         try:
             if self.ui.lineEdit.text() == "":
-                print "Need to enter name to chat"
+                error = QtGui.QMessageBox.information(self, 'Error', "You need to enter your name!", QtGui.QMessageBox.
+                                                      Ok)
             else:
 
                 answer = "Connecting to user..."
@@ -113,8 +125,9 @@ class ChatApplication(QtGui.QMainWindow):
                     for name in self.user_list:
 
                         self.ui.listWidget_2.addItem(name)
-                    else:
-                        pass
+
+                    self.start_conversation()
+
 
         except:
 

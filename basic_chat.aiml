@@ -13,6 +13,11 @@
     </category>
 
     <category>
+        <pattern>SPELLING IS COOL</pattern>
+        <template>That has been spell checked</template>
+    </category>
+
+    <category>
       <pattern>*</pattern>
       <template>
         <random>

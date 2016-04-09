@@ -1,12 +1,12 @@
 __author__ = 'Chelsea, Robin, Chris, Catherine'
 
-
 from chatapp import *
 import sys
 import os
 import aiml
 import random
 import time
+from spellcheck import correct
 import socket
 from thread import *
 
@@ -33,6 +33,8 @@ class ChatApplication(QtGui.QMainWindow):
 
         self.user_list = []
         self.previous_message = ""
+        self.list = []
+        self.newlist = []
 
     def load_brain(self):
 
@@ -57,7 +59,6 @@ class ChatApplication(QtGui.QMainWindow):
 
         self.clear_logs()
 
-        #self.ui.listWidget.addItem(self.user_list[1] + ":" + "Hello")
         message = str(self.ui.lineEdit_2.text())
         current_message = message.lower()
 
@@ -66,7 +67,6 @@ class ChatApplication(QtGui.QMainWindow):
             self.ui.lineEdit_2.clear()
             call_out = ["Please don't repeat yourself", "You are repeating yourself", "Theres no need for repetition", "Stop it", "Well thats annoying"]
             self.ui.listWidget.addItem(self.user_list[1] + ": " + random.choice(call_out))
-
 
         if current_message == "":
             error = QtGui.QMessageBox.information(self, 'Error', "You need to enter a message!", QtGui.QMessageBox.Ok)
@@ -79,7 +79,8 @@ class ChatApplication(QtGui.QMainWindow):
             self.previous_message = current_message
             self.ui.lineEdit_2.clear()
 
-            self.respond(message)
+            check = self.check_spelling(message)
+            self.respond(check)
             self.save_conversation(message)
 
     def respond(self, message):
@@ -143,6 +144,25 @@ class ChatApplication(QtGui.QMainWindow):
 
         file.write(self.user_list[0] + ": " + message + "\n")
         file.write(self.user_list[1] + ": " + response + "\n")
+
+    def check_spelling(self, message):
+
+        words = message.split()
+
+        for word in words:
+            self.list.append(word)
+
+        for item in self.list:
+            corr = correct(item)
+
+            self.newlist.append(corr)
+
+        checked_message = ' '.join(self.newlist)
+
+        return checked_message
+
+
+
 
 
 # Execute application

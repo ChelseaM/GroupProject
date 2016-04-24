@@ -7,8 +7,8 @@ import aiml
 import random
 import time
 from spellcheck import correct
-import socket
-from thread import *
+# import socket
+# from thread import *
 
 
 class ChatApplication(QtGui.QMainWindow):
@@ -49,12 +49,14 @@ class ChatApplication(QtGui.QMainWindow):
             self.kernel.bootstrap(learnFiles='startup.xml', commands='load aiml b')
             self.kernel.saveBrain('brain.brn')
 
+    # Starts conversation with user
     def start_conversation(self):
 
         self.clear_logs()
 
         self.ui.listWidget.addItem(self.user_list[1] + ":" + "Hello")
 
+    # Sends user message to list, checks are made
     def send_message(self):
 
         self.clear_logs()
@@ -83,18 +85,22 @@ class ChatApplication(QtGui.QMainWindow):
             self.respond(check)
             self.save_conversation(message)
 
+    # Function to respond to user input
     def respond(self, message):
         response = (self.kernel.respond(message))
         self.ui.listWidget.addItem(self.user_list[1] + ": " + response)
 
+    #Function to reload aiml files
     def reload_brain(self):
 
         self.kernel.bootstrap(learnFiles='startup.xml', commands='load aiml b')
         self.kernel.saveBrain('brain.brn')
 
+    # Clears the screen
     def clear_logs(self):
         self.ui.listWidget.clear()
 
+    # Adds user to list
     def connect(self):
 
         try:
@@ -134,6 +140,7 @@ class ChatApplication(QtGui.QMainWindow):
 
             pass
 
+    # Saves a log of the conversation
     def save_conversation(self, message):
 
         print time.asctime(time.localtime(time.time()))
@@ -145,6 +152,7 @@ class ChatApplication(QtGui.QMainWindow):
         file.write(self.user_list[0] + ": " + message + "\n")
         file.write(self.user_list[1] + ": " + response + "\n")
 
+    #Checks spelling of words in user input
     def check_spelling(self, message):
 
         words = message.split()

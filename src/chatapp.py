@@ -2,7 +2,8 @@
 
 # Form implementation generated from reading ui file 'chatapp.ui'
 #
-# Created by: PyQt4 UI code generator 4.11.4
+# Created: Sun Apr 24 20:17:53 2016
+#      by: PyQt4 UI code generator 4.10.4
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -29,7 +30,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.frame = QtGui.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(20, 80, 271, 341))
+        self.frame.setGeometry(QtCore.QRect(20, 80, 601, 341))
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(85, 85, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -59,19 +60,16 @@ class Ui_MainWindow(object):
         self.clearLogs_Button.setFont(font)
         self.clearLogs_Button.setObjectName(_fromUtf8("clearLogs_Button"))
         self.lineEdit_2 = QtGui.QLineEdit(self.frame)
-        self.lineEdit_2.setGeometry(QtCore.QRect(20, 249, 241, 31))
+        self.lineEdit_2.setGeometry(QtCore.QRect(20, 249, 541, 31))
         self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
-        self.frame_2 = QtGui.QFrame(self.centralwidget)
-        self.frame_2.setGeometry(QtCore.QRect(310, 80, 311, 341))
-        self.frame_2.setFrameShape(QtGui.QFrame.StyledPanel)
-        self.frame_2.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_2.setObjectName(_fromUtf8("frame_2"))
-        self.listWidget = QtGui.QListWidget(self.frame_2)
-        self.listWidget.setGeometry(QtCore.QRect(20, 10, 271, 321))
+        self.listWidget = QtGui.QListWidget(self.frame)
+        self.listWidget.setGeometry(QtCore.QRect(20, 0, 541, 231))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Arial"))
         font.setPointSize(12)
         self.listWidget.setFont(font)
+        self.listWidget.setStyleSheet(_fromUtf8("background-color: white"))
+        self.listWidget.setProperty("isWrapping", True)
         self.listWidget.setObjectName(_fromUtf8("listWidget"))
         self.frame_3 = QtGui.QFrame(self.centralwidget)
         self.frame_3.setGeometry(QtCore.QRect(19, 30, 601, 41))

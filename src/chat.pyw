@@ -22,19 +22,30 @@ class ChatApplication(QtGui.QMainWindow):
 
         # load kernel
         self.kernel = aiml.Kernel()
-        self.kernel.setBotPredicate('name', 'Chelsea')
+        self.kernel.setBotPredicate('gender', 'male')
+        self.kernel.setBotPredicate('species', 'human')
+        #self.kernel.setBotPredicate('nationality',)
+        #self.kernel.setBotPredicate('location',)
+        #self.kernel.setBotPredicate('favouritecolor',)
+        #self.kernel.setBotPredicate('favouritemovie',)
+        #self.kernel.setBotPredicate('birthplace',)
+        #self.kernel.setBotPredicate('friends',)
+        #print self.kernel.getBotPredicate('gender')
+
 
         # connect the buttons to the methods
         QtCore.QObject.connect(self.ui.sendMessage_Button, QtCore.SIGNAL('clicked()'), self.send_message)
         QtCore.QObject.connect(self.ui.clearLogs_Button, QtCore.SIGNAL('clicked()'), self.clear_logs)
         QtCore.QObject.connect(self.ui.connect_Button, QtCore.SIGNAL('clicked()'), self.connect)
+        QtCore.QObject.connect(self.ui.disconnectButton, QtCore.SIGNAL('clicked()'), self.disconnect)
 
-        # self.actionExit.triggered.connect(quit())
+        self.ui.actionExit.triggered.connect(self.exit)
 
         self.user_list = []
         self.previous_message = ""
         self.list = []
         self.newlist = []
+        self.system_names = ['userA', 'userB']
 
     def load_brain(self):
 
@@ -85,6 +96,7 @@ class ChatApplication(QtGui.QMainWindow):
             self.respond(check)
             self.save_conversation(message)
 
+
     # Function to respond to user input
     def respond(self, message):
         response = (self.kernel.respond(message))
@@ -112,7 +124,7 @@ class ChatApplication(QtGui.QMainWindow):
                 answer = "Connecting to user..."
                 self.ui.listWidget.addItem(answer)
 
-                ai_system = "Chelsea"
+                ai_system = 'userA'
                 answer = "Connection Established"
                 self.ui.listWidget.addItem(answer)
 
@@ -125,7 +137,15 @@ class ChatApplication(QtGui.QMainWindow):
 
                 else:
                     self.user_list.append(str(self.ui.lineEdit.text()))
-                    self.user_list.append(ai_system)
+
+                    if 'userA' in self.user_list:
+
+                        self.user_list.remove('userA')
+                        ai_system = 'userB'
+                        self.user_list.append(ai_system)
+
+                    else:
+                        self.user_list.append(ai_system)
 
                     self.ui.lineEdit.clear()
 
@@ -140,38 +160,59 @@ class ChatApplication(QtGui.QMainWindow):
 
             pass
 
+    # Disconnect judge from user
+    def disconnect(self):
+        self.ui.listWidget_2.clear()
+        self.user_list.remove(self.user_list[0])
+
     # Saves a log of the conversation
     def save_conversation(self, message):
 
-        print time.asctime(time.localtime(time.time()))
 
-        file = open('foo.txt', 'a')
-        #file = open(time.asctime(time.localtime(time.time())) + ".txt", 'w')
+
+        file = open(str(self.user_list), 'a')
+
         response = (self.kernel.respond(message))
 
         file.write(self.user_list[0] + ": " + message + "\n")
         file.write(self.user_list[1] + ": " + response + "\n")
 
-    #Checks spelling of words in user input
+        file.close()
+
+    # Checks spelling of words in user input
     def check_spelling(self, message):
+
+        if not self.list:
+            print "list is empty"
+        else:
+            del self.list[:]
+            print self.list
 
         words = message.split()
 
         for word in words:
             self.list.append(word)
 
+        if not self.newlist:
+            print " new list is empty"
+        else:
+
+            del self.newlist[:]
+            print self.newlist
+
         for item in self.list:
             corr = correct(item)
 
             self.newlist.append(corr)
+        print self.newlist
 
         checked_message = ' '.join(self.newlist)
 
         return checked_message
 
+    def exit(self):
 
-
-
+        self.close()
 
 # Execute application
 if __name__ == "__main__":

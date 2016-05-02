@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'chatapp.ui'
 #
-# Created: Sun Apr 24 20:17:53 2016
+# Created: Sun May  1 21:25:55 2016
 #      by: PyQt4 UI code generator 4.10.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -70,6 +70,7 @@ class Ui_MainWindow(object):
         self.listWidget.setFont(font)
         self.listWidget.setStyleSheet(_fromUtf8("background-color: white"))
         self.listWidget.setProperty("isWrapping", True)
+        self.listWidget.setWordWrap(True)
         self.listWidget.setObjectName(_fromUtf8("listWidget"))
         self.frame_3 = QtGui.QFrame(self.centralwidget)
         self.frame_3.setGeometry(QtCore.QRect(19, 30, 601, 41))
@@ -97,6 +98,13 @@ class Ui_MainWindow(object):
         font.setPointSize(10)
         self.connect_Button.setFont(font)
         self.connect_Button.setObjectName(_fromUtf8("connect_Button"))
+        self.disconnectButton = QtGui.QPushButton(self.frame_3)
+        self.disconnectButton.setGeometry(QtCore.QRect(370, 10, 75, 23))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Arial"))
+        font.setPointSize(10)
+        self.disconnectButton.setFont(font)
+        self.disconnectButton.setObjectName(_fromUtf8("disconnectButton"))
         self.frame_4 = QtGui.QFrame(self.centralwidget)
         self.frame_4.setGeometry(QtCore.QRect(640, 30, 120, 391))
         self.frame_4.setFrameShape(QtGui.QFrame.StyledPanel)
@@ -139,6 +147,7 @@ class Ui_MainWindow(object):
         self.clearLogs_Button.setText(_translate("MainWindow", "Clear Logs", None))
         self.Name_label.setText(_translate("MainWindow", "Name:", None))
         self.connect_Button.setText(_translate("MainWindow", "Connect", None))
+        self.disconnectButton.setText(_translate("MainWindow", "Disconnect", None))
         self.label.setText(_translate("MainWindow", "Who is Connected:", None))
         self.menuMenu_Actions.setTitle(_translate("MainWindow", "Menu Actions", None))
         self.actionVersion.setText(_translate("MainWindow", "Version", None))

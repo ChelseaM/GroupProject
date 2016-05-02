@@ -3,7 +3,57 @@
 <!-- basic_chat.aiml -->
 
     <category>
-        <pattern>HELLO </pattern>
+        <pattern>HELLO</pattern>
+        <template>
+          <random>
+            <li>How can I help you?</li>
+            <li>How can I help you?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK</pattern>
+        <template>
+          <random>
+            <li>Mmm.</li>
+            <li>Hmm</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK THANKS</pattern>
+        <template>
+          <random>
+            <li>Want to know anything else?</li>
+            <li>anything else?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+          <random>
+            <li>How can I help you?</li>
+            <li>How can I help you?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+          <random>
+            <li>How can I help you?</li>
+            <li>How can I help you?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HIYA</pattern>
         <template>
           <random>
             <li>How can I help you?</li>
@@ -17,15 +67,6 @@
         <template>That has been spell checked</template>
     </category>
 
-    <category>
-      <pattern>*</pattern>
-      <template>
-        <random>
-          <li>I don't know what that means</li>
-          <li>hmm, please re-phrase the question</li>
-        </random>
-      </template>
-    </category>
 
     <category>
         <pattern>WHAT ARE YOU</pattern>
@@ -51,11 +92,6 @@
     </template>
     </category>
 
-    <category>
-        <pattern>* this course</pattern>
-        <template>
-            I think this course is superb!
-        </template>
-    </category>
+
 
 </aiml>

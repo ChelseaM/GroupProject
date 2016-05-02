@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+<category>
+<pattern>DO YOU ENJOY THE COURSE</pattern>
+<template>Yeah I find it really interesting overall, it's depended on the module we're studying at the time though haha.</template>
+</category>
+<category>
+<pattern>WHY DID YOU CHOOSE THIS COURSE</pattern>
+<template>I enjoy working with computers and thought it would benefit me in the future.</template>
+</category>
+<category>
+<pattern>HOW DO YOU APPLY</pattern>
+<template>You apply through UCAS.</template>
+</category>
+<category><pattern>HOW DO YOU APPLY FOR THE COURSE</pattern><template>You apply through UCAS.</template></category>
+<category><pattern> WHAT IS UCAS</pattern><template>It is a step by step online application for your course.</template></category>
+<category><pattern>DID YOU NEED ANY PAST COMPUTING ABILITY</pattern><template>I think it helps to know a little about computers, but I didn't have a lot of knowledge when I started.</template></category>
+<category><pattern>I HAVE NO PREVIOUS COMPUTING EXPERIENCE, CAN I STILL DO THE COURSE</pattern><template>I think you could still do the course, but you need to be prepared to put plenty of work in.</template></category>
+<category><pattern>IS THE COURSE HARD</pattern><template> Some of the modules are difficult, but most are alright, I guess it's expected to be pretty hard if you're getting a degree out of it haha. Support is available if it's needed. </template></category>
+<category><pattern>WHY DID YOU CHOOSE TO STUDY HERE</pattern><template>I liked the fact that it was local, and the modules sounded interesting.</template></category>
+<category><pattern>WHICH MODULE WERE YOU MOST LOOKING FORWARD TO</pattern><template>I started the course with a keen interest in web development, so web authoring and web app development stuck out for me.</template></category>
+<category><pattern>DID YOU FEEL THESE MODULES WERE AS GOOD AS YOU EXPECTED</pattern><template>I did enjoy them, but I also found other modules to be just as interesting.</template></category>
+<category><pattern>NOW THAT YOU HAVE TRIED ALL OF THE MODULES, WHICH DO YOU PREFER</pattern><template>I still like web development, but I found databases quite interesting.</template></category>
+<category><pattern>WHICH IS YOUR FAVOURITE MODULE</pattern><template>I  like web development, but I found databases quite interesting.</template></category>
+<category><pattern>I AM INTERESTED IN NETWORKING WHAT IS IT LIKE</pattern><template>I personally find it quite interesting, but it's pretty hard, hope that doesn't put you off haha.</template></category>
+<category><pattern>NOW THAT YOU HAVE TRIED ALL THE MODULES, WHICH DO YOU LIKE THE LEAST</pattern><template>I think my least favourite has been cloud computing.</template></category>
+<category><pattern>WHICH MODULE WAS THE HARDEST</pattern><template>I found computer architecture the hardest, but hardware definitely isn't my strong point!</template></category>
+<category><pattern>HOW DO I APPLY FOR THE COURSE</pattern><template>You should apply for the course through UCAS.</template></category>
+<category><pattern>HOW DO I APPLY FOR THE COURSE</pattern><template>You should apply for the course through UCAS.</template></category>
+<category><pattern>WHAT KIND OF JOB ARE YOU HOPING TO GET OUT OF THIS COURSE</pattern><template>I'm not too sure at the moment, I'm still interested in web development but I would like to keep my options open.</template></category>
+<category><pattern>DO YOU GET ANY CAREER ADVICE</pattern><template>There is a useful module in the second year � 'Professional Practice.' That helps to give a good idea of potential career ideas.</template></category>
+<category><pattern>WHAT IS PROFESSIONAL PRACTISE</pattern><template>You are given a selection of jobs to apply for and have to create a CV/ covering letter and go to a pretend interview, it's not quite as scary as it sounds haha.</template></category>
+<category><pattern>IS THIS COURSE THROUGH LINCOLN</pattern><template>Yeah, the first 2 years are at Lindsey through Lincoln, and they your final year is done at Lincoln.</template></category>
+<category><pattern>WHAT MADE YOU CHOOSE TO STUDY HERE INSTEAD OF GOING STRAIGHT TO LINCOLN</pattern><template>The course was local which was more useful to me personally.</template></category>
+<category><pattern>DID YOU ENJOY THE FIRST YEAR OR SECOND YEAR MORE</pattern><template>I enjoyed a mixture of both, I think it depends what subjects you prefer haha..</template></category>
+<category><pattern>HOW MANY DAYS A WEEK IS THE COURSE</pattern><template>The course is two full days, although its obviously advisable to work outside of college too..</template></category>
+<category><pattern>HOW MANY DAYS A WEEK DO YOU SPEND AT COLLEGE</pattern><template>The course is two full days, although its obviously advisable to work outside of college too..</template></category>
+<category><pattern>HOW MUCH IS IT</pattern><template>As far as I know it's around �5995, but checking student finance can confirm this.</template></category>
+<category><pattern>WHO TEACHES YOU</pattern><template>We currently have 2 tutors, Dave and Steve.</template></category>
+<category><pattern>CAN YOU GET EXTRA HELP</pattern><template>Yeah extra help is available if you feel like you're stuck with something.</template></category>
+<category><pattern>WHICH LANGUAGES HAVE YOU LEARNT</pattern><template> We learnt Python during the programming module, but we also used languages like HTML, CSS, PHP and SQL during the web and database modules. </template></category>
+<category><pattern>WHAT DO YOU DO IN PROGRAMMING</pattern><template> We learnt how to use Python and built a small application, was quite a good module to be fair. </template></category>
+<category><pattern>WHAT'S PROGRAMMING LIKE</pattern><template> We learnt how to use Python and built a small application, was quite a good module to be fair. </template></category>
+<category><pattern>IS PROGRAMMING HARD</pattern><template> Parts of it were but I did enjoy it, there's plenty of support and resources available. </template></category>
+<category><pattern>WHAT DO YOU DO IN MATHS</pattern><template> Hope you like algebra! There is a mixture of computer related maths, but it's not too difficult. </template></category>
+<category><pattern>WHAT IS MATHS LIKE </pattern><template> Hope you like algebra! There is a mixture of computer related maths, but it's not too difficult. </template></category>
+<category><pattern>WHAT DO YOU DO IN PROBLEM SOLVING</pattern><template> It was quite a strange module, wasn't expecting it at all, we were given cryptic questions to solve in teams, pretty interesting though! </template></category>
+<category><pattern>IS PROBLEM SOLVING HARD</pattern><template> Kind of, but it's pretty interesting, and I think it's based more on the team work side of things. </template></category>
+<category><pattern>IS COMPUTER ARCHITECTURE HARD</pattern><template> Kind of, it wasn't really my kinda thing, but help was available. </template></category>
+<category><pattern>WHAT'S COMPUTER ARCHITECTURE</pattern><template> Mainly learning about the inner workings of a computer. </template></category>
+<category><pattern>WHAT DO YOU DO IN PROJECT MANAGEMENT</pattern><template> Project management taught us about using different project planning tools and methodologies to manage projects. </template></category>
+<category><pattern>WHAT DO YOU DO IN HCI</pattern><template> You learn about ways individuals interact with computers and techniques used when trying to design something for a specific target audience. </template></category>
+<category><pattern>WHAT DO YOU DO IN HUMAN COMPUTER INTERACTION</pattern><template> You learn about ways individuals interact with computers and techniques used when trying to design something for a specific target audience. </template></category>
+</aiml>

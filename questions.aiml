@@ -1,21 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0.1" encoding="UTF-8">
+
 <category>
 <pattern>DO YOU ENJOY THE COURSE</pattern>
-<template>Yeah I find it really interesting overall, it's depended on the module we're studying at the time though haha.</template>
+<template>
+<random>
+<li>Yeah I find it really interesting overall, it's depended on the module we're studying at the time though haha.</li>
+<li>The course is alright, it has its ups and downs, not every module is to my liking however.</li>
+<li>Yes i love learning.</li>
+</random>
+</template>
 </category>
+
+
 <category>
 <pattern>WHY DID YOU CHOOSE THIS COURSE</pattern>
-<template>I enjoy working with computers and thought it would benefit me in the future.</template>
+<template>
+<random>
+<li>I enjoy working with computers and thought it would benefit me in the future.</li>
+<li>The course appealed to me as the only IT related course at the time, my interests have always aligned with IT.</li>
+<li>It peaked my interest obviously.</li>
+</random>
+</template>
 </category>
+
+
 <category>
 <pattern>HOW DO YOU APPLY</pattern>
-<template>You apply through UCAS.</template>
+<template>
+<random>
+<li>You apply through UCAS.</li>
+<li>Via the UCAS website.</li>
+<li>You can apply through UCAS online, I think it costs around 12 pound to apply and you will also need the course code to apply to the correct institute</li>
+</random>
+</template>
 </category>
-<category><pattern>HOW DO YOU APPLY FOR THE COURSE</pattern><template>You apply through UCAS.</template></category>
-<category><pattern> WHAT IS UCAS</pattern><template>It is a step by step online application for your course.</template></category>
-<category><pattern>DID YOU NEED ANY PAST COMPUTING ABILITY</pattern><template>I think it helps to know a little about computers, but I didn't have a lot of knowledge when I started.</template></category>
-<category><pattern>I HAVE NO PREVIOUS COMPUTING EXPERIENCE, CAN I STILL DO THE COURSE</pattern><template>I think you could still do the course, but you need to be prepared to put plenty of work in.</template></category>
+
+
+<category>
+<pattern>HOW DO YOU APPLY FOR THE COURSE</pattern>
+<template>
+<random>
+<li>You apply through UCAS.</li>
+<li>UCAS.</li>
+<li>Via the UCAS website.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern> WHAT IS UCAS</pattern>
+<template>
+<random>
+<li>It is a step by step online application for your course.</li>
+<li>UCAS is the website used for sending applications to various universities.</li>
+<li>UCAS stands for Universities and Colleges Admissions Service. It's the centralised service that students use to apply to university. Basically, pretty much everyone who wants to study an undergraduate degree in the UK will have to apply through UCAS</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>DID YOU NEED ANY PAST COMPUTING ABILITY</pattern>
+<template>
+<random>
+<li>I think it helps to know a little about computers, but I didn't have a lot of knowledge when I started.</li>
+<li></li>
+<li></li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>I HAVE NO PREVIOUS COMPUTING EXPERIENCE, CAN I STILL DO THE COURSE</pattern>
+<template>I think you could still do the course, but you need to be prepared to put plenty of work in.</template></category>
+
+
 <category><pattern>IS THE COURSE HARD</pattern><template> Some of the modules are difficult, but most are alright, I guess it's expected to be pretty hard if you're getting a degree out of it haha. Support is available if it's needed. </template></category>
 <category><pattern>WHY DID YOU CHOOSE TO STUDY HERE</pattern><template>I liked the fact that it was local, and the modules sounded interesting.</template></category>
 <category><pattern>WHICH MODULE WERE YOU MOST LOOKING FORWARD TO</pattern><template>I started the course with a keen interest in web development, so web authoring and web app development stuck out for me.</template></category>
@@ -35,7 +96,7 @@
 <category><pattern>DID YOU ENJOY THE FIRST YEAR OR SECOND YEAR MORE</pattern><template>I enjoyed a mixture of both, I think it depends what subjects you prefer haha..</template></category>
 <category><pattern>HOW MANY DAYS A WEEK IS THE COURSE</pattern><template>The course is two full days, although its obviously advisable to work outside of college too..</template></category>
 <category><pattern>HOW MANY DAYS A WEEK DO YOU SPEND AT COLLEGE</pattern><template>The course is two full days, although its obviously advisable to work outside of college too..</template></category>
-<category><pattern>HOW MUCH IS IT</pattern><template>As far as I know it's around �5995, but checking student finance can confirm this.</template></category>
+<category><pattern>HOW MUCH IS IT</pattern><template>As far as I know it's around £5995, but checking student finance can confirm this.</template></category>
 <category><pattern>WHO TEACHES YOU</pattern><template>We currently have 2 tutors, Dave and Steve.</template></category>
 <category><pattern>CAN YOU GET EXTRA HELP</pattern><template>Yeah extra help is available if you feel like you're stuck with something.</template></category>
 <category><pattern>WHICH LANGUAGES HAVE YOU LEARNT</pattern><template> We learnt Python during the programming module, but we also used languages like HTML, CSS, PHP and SQL during the web and database modules. </template></category>

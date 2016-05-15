@@ -46,6 +46,7 @@ class ChatApplication(QtGui.QMainWindow):
         self.list = []
         self.newlist = []
         self.system_names = ['userA', 'userB']
+        self.response = ""
 
     def load_brain(self):
 
@@ -92,15 +93,16 @@ class ChatApplication(QtGui.QMainWindow):
             self.previous_message = current_message
             self.ui.lineEdit_2.clear()
 
-            check = self.check_spelling(message)
+            check = self.check_spelling(current_message)
             self.respond(check)
             self.save_conversation(message)
 
 
+
     # Function to respond to user input
     def respond(self, message):
-        response = (self.kernel.respond(message))
-        self.ui.listWidget.addItem(self.user_list[1] + ": " + response)
+        self.response = (self.kernel.respond(message))
+        self.ui.listWidget.addItem(self.user_list[1] + ": " + self.response)
 
     #Function to reload aiml files
     def reload_brain(self):
@@ -168,48 +170,50 @@ class ChatApplication(QtGui.QMainWindow):
     # Saves a log of the conversation
     def save_conversation(self, message):
 
-
-
         file = open(str(self.user_list), 'a')
 
-        response = (self.kernel.respond(message))
+        #self.response = (self.kernel.respond(message))
 
         file.write(self.user_list[0] + ": " + message + "\n")
-        file.write(self.user_list[1] + ": " + response + "\n")
+        file.write(self.user_list[1] + ": " + self.response + "\n")
 
         file.close()
 
     # Checks spelling of words in user input
     def check_spelling(self, message):
-
+        # Checks if list is empty before deleting contents of list
         if not self.list:
             print "list is empty"
         else:
             del self.list[:]
-            print self.list
-
+            # print self.list
+        # Splits message from user in this variable
         words = message.split()
 
+        # Adds each word to the empty list
         for word in words:
             self.list.append(word)
 
+        # Checks if the new list is empty before deleting its contents
         if not self.newlist:
             print " new list is empty"
         else:
 
             del self.newlist[:]
-            print self.newlist
-
+            # print self.newlist
+        # Loops through each word in list, corrects them then adds to new list.
         for item in self.list:
             corr = correct(item)
 
             self.newlist.append(corr)
-        print self.newlist
-
+        # print self.newlist
+        # Contents of new list is then placed in a variable and into a readable format.
         checked_message = ' '.join(self.newlist)
 
+        # Returns the checked message for system to look through aiml files for a response.
         return checked_message
 
+    # Exits application
     def exit(self):
 
         self.close()

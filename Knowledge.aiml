@@ -1,33 +1,47 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Copyright (c) 2007 ALICE A.I. Foundation, Inc. -->
-<!-- -->
-<!-- Permission is hereby granted, free of charge, to any person       -->
-<!-- obtaining a copy of this software and associated documentation    -->
-<!-- files (the "Software"), to deal in the Software without           -->
-<!-- restriction, including without limitation the rights to use,      -->
-<!-- copy, modify, merge, publish, distribute, sublicense, and/or sell -->
-<!-- copies of the Software, and to permit persons to whom the         -->
-<!-- Software is furnished to do so, subject to the following          -->
-<!-- conditions:                                                       -->
-<!-- -->
-<!-- The above copyright notice and this permission notice shall be    -->
-<!-- included in all copies or substantial portions of the Software.   -->
-<!-- -->
-<!-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
-<!-- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
-<!-- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
-<!-- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
-<!-- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
-<!-- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
-<!-- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
-<!-- OTHER DEALINGS IN THE SOFTWARE. -->
-<!-- -->
-<!-- Complies with the AIML 1.0.1 Standard -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Last modified July 26, 2007 -->
-     
-<category><pattern>HOW FAR IS ALPHA CENTAURI</pattern><template>Four light years.</template></category>         
+       
+<category><pattern>WHAT IS COMPUTING</pattern><template>Anything that involves a computer can be classed as computing.</template></category>   
+<category><pattern>WHAT IS PROGRAMMING</pattern><template>Creating an application from nothing.</template></category>
+<category><pattern>WHAT IS A CIS</pattern><template>Not CSI, a computer information system.</template></category>
+<category><pattern>WHAT IS A WEBSITE</pattern><template>A location on the internet that can be accessed anywhere.</template></category>
+<category><pattern>WHAT IS HTML</pattern><template>The language used to create websites.</template></category>
+<category><pattern>WHAT IS PYTHON</pattern><template>The language used to create programs in Python.</template></category>
+<category><pattern>WHAT IS JAVA</pattern><template>A wide used programming language that works on most machines.</template></category>
+<category><pattern>WHAT ARE PROGRAMMING LANGUAGES</pattern><template>The code used to create programs. There are many types of code, though python covers te basics.</template></category>
+<category><pattern>WHAT IS COMPUTER ARCHITECTURE</pattern><template>The inner workings of computer systems, from hard drives to motherboards.</template></category>
+<category><pattern>WHAT ARE BUSINESS PROCESSES</pattern><template></template></category>
+<category><pattern>WHAT IS AN INFORMATION SYSTEM</pattern><template>Software to help organise data into information.</template></category>
+<category><pattern>WHAT IS THE LENGTH OF THE COURSE</pattern><template>The course lasts 3 years, 2 of which are at the college.</template></category>
+<category><pattern>HOW MUCH DOES THE COURSE COST</pattern><template>The course is about 5 and a half thousand each year, student finance can help though.</template></category>
+<category><pattern>WHAT SUPPORT IS AVAILABLE</pattern><template>Depending on what disabilities you choose upon applying, you can receive different options. For general use tutors will help and fellow students are good for help.</template></category>
+<category><pattern>HOW IS THE WORK HANDED IN</pattern><template>The work is handed in using the college's Moodle.</template></category>
+<category><pattern>WHAT IS MOODLE</pattern><template>Moodle is the college website and is used for handing work in, obtaining lectures and workshops and more.</template></category>
+<category><pattern>HOW MANY DAYS ARE YOU IN THE COLLEGE</pattern><template>2 days, the days depend on the year of study. Thursday-Friday in year 1, Monday and Tuesday in year 2.</template></category>
+<category><pattern>ARE THERE ANY EXTRA COSTS FOR EQUIPMENT </pattern><template>If you don't have a computer or laptop... I'd recommend one.</template></category>
+<category><pattern>WHAT IS A NETWORK</pattern><template>A network is a collection of connected devices, think home computers connected to the router.</template></category>
+<category><pattern>WHAT IS NETWORKING</pattern><template>Networking is connecting devices together, to the internet, to other networks etc...</template></category>
+<category><pattern>WHAT IS A DATABASE</pattern><template>A table of information that is used in websites, search bars, Google and more.</template></category>
+<category><pattern>HOW ARE DATABASES USED</pattern><template>Databases can be used for queries, search engines, managing stock in a shop and much more.</template></category>
+<category><pattern>WHAT IS THE CLOUD</pattern><template>Cloud is an online service that allows users to buy storage space, store data, create virtual machines etc...</template></category>
+<category><pattern>WHAT IS HCI</pattern><template>Human Computer Interaction.</template></category>
+<category><pattern>WHERE CAN HCI BE USED</pattern><template>Everything uses HCI, everything is designed to work well with humans in mind, for example ease of use in products.</template></category>
+<category><pattern>WHAT IS PROFESSIONAL PRACTICE</pattern><template>CV writing and how to present yourself in interviews.</template></category>
+<category><pattern>WHAT IS PROJECT MANAGEMENT</pattern><template>How to manage a project, the clue is in the name. It involves creating gantt charts, proposals and timescales.</template></category>
+<category><pattern>WHAT IS WEB APP DEVELOPMENT</pattern><template>Creating web applications.</template></category>
+<category><pattern>WHAT IS WEB AUTHORING</pattern><template>Creating basic websites from scratch using html.</template></category>
+<category><pattern>WHAT IS THE DIFFERENCE BETWEEN WEB APP AND WEB AUTH</pattern><template>Web authoring is creating websites, web app development is creating applications on top of the websites.</template></category>
+<category><pattern>WHAT IS PROBLEM SOLVING</pattern><template>Problem solving is a way of solving complex problems that seem unsolvable using various methods.</template></category>
+<category><pattern>WHAT IS THE AVERAGE NUMBER OF ASSIGNMENTS IN A YEAR</pattern><template>With the 8 modules, between 8 and 16 per year, depending on the number per module, mostly they have been one or two.</template></category>
+<category><pattern>HOW LNOG DO EACH OF THE MODULES RUN</pattern><template>They run for one semester, about 4 months each.</template></category>
+<category><pattern>ARE THERE ANY DAYS WE WOULD NOT BE IN COLLEGE</pattern><template>We are only in 2 days a week each year. The rest is done at home.</template></category>
+<category><pattern>WHAT TIME OFF DO WE RECIEVE A YEAR</pattern><template>We recieve no college/school based holidays however we do get Easter and Christmas, as well as half terms.</template></category>
+<category><pattern>WHAT IS MATHS FOR COMPUTING</pattern><template>The algorithms, logorithms and all the other "ithms" you can think of! Plenty of maths.</template></category>
+<category><pattern>HOW DOES MATHS IMPROVE FROM GCSE MATHS</pattern><template>It is more focused to computing, some of these are advanced on such as algebraic functions.</template></category>
+<category><pattern>DOES THE PROJECT MANAGEMENT CONTINUE INTO THE PROJECT</pattern><template>After project management the project begins, the same technques used in the previous module will be carried over automatically by the student.</template></category>
+<category><pattern>DO WE GET TO CHOOSE OUR OWN PROJECT</pattern><template>There is some choice on the project but they were a list of options to choose from this year.</template></category>
+<category><pattern>WHAT IS VISUAL STUDIO</pattern><template>Visual Studio is the cloud based programming software used for a part of the Cloud Computing module.</template></category>
+<category><pattern>WHAT IS POWERSHELL</pattern><template>Powershell is the easy to use interface for the Azure platform. It is used to create cloud services, storage accounts and more from a simple interface.</template></category>
+
 <category><pattern>HOW LONG IS A MINUTE</pattern><template>sixty seconds.</template></category>          
 <category><pattern>HOW MANY LITERS _ CUP</pattern><template>236.6 milliliters</template></category>         
 <category><pattern>HOW MANY LITERS _ GALLON</pattern><template>3.785 liters</template></category>         

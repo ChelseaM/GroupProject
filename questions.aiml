@@ -74,42 +74,591 @@
 
 <category>
 <pattern>I HAVE NO PREVIOUS COMPUTING EXPERIENCE, CAN I STILL DO THE COURSE</pattern>
-<template>I think you could still do the course, but you need to be prepared to put plenty of work in.</template></category>
+<template>
+<random>
+<li>I think you could still do the course, but you need to be prepared to put plenty of work in.</li>
+<li>Having a basic knowledge should suffice, the modules are introduced well and you learn the skills easily enough.</li>
+<li>Yeah, sure its easy enough</li>
+</random>
+</template>
+</category>
 
 
-<category><pattern>IS THE COURSE HARD</pattern><template> Some of the modules are difficult, but most are alright, I guess it's expected to be pretty hard if you're getting a degree out of it haha. Support is available if it's needed. </template></category>
-<category><pattern>WHY DID YOU CHOOSE TO STUDY HERE</pattern><template>I liked the fact that it was local, and the modules sounded interesting.</template></category>
-<category><pattern>WHICH MODULE WERE YOU MOST LOOKING FORWARD TO</pattern><template>I started the course with a keen interest in web development, so web authoring and web app development stuck out for me.</template></category>
-<category><pattern>DID YOU FEEL THESE MODULES WERE AS GOOD AS YOU EXPECTED</pattern><template>I did enjoy them, but I also found other modules to be just as interesting.</template></category>
-<category><pattern>NOW THAT YOU HAVE TRIED ALL OF THE MODULES, WHICH DO YOU PREFER</pattern><template>I still like web development, but I found databases quite interesting.</template></category>
-<category><pattern>WHICH IS YOUR FAVOURITE MODULE</pattern><template>I  like web development, but I found databases quite interesting.</template></category>
-<category><pattern>I AM INTERESTED IN NETWORKING WHAT IS IT LIKE</pattern><template>I personally find it quite interesting, but it's pretty hard, hope that doesn't put you off haha.</template></category>
-<category><pattern>NOW THAT YOU HAVE TRIED ALL THE MODULES, WHICH DO YOU LIKE THE LEAST</pattern><template>I think my least favourite has been cloud computing.</template></category>
-<category><pattern>WHICH MODULE WAS THE HARDEST</pattern><template>I found computer architecture the hardest, but hardware definitely isn't my strong point!</template></category>
-<category><pattern>HOW DO I APPLY FOR THE COURSE</pattern><template>You should apply for the course through UCAS.</template></category>
-<category><pattern>HOW DO I APPLY FOR THE COURSE</pattern><template>You should apply for the course through UCAS.</template></category>
-<category><pattern>WHAT KIND OF JOB ARE YOU HOPING TO GET OUT OF THIS COURSE</pattern><template>I'm not too sure at the moment, I'm still interested in web development but I would like to keep my options open.</template></category>
-<category><pattern>DO YOU GET ANY CAREER ADVICE</pattern><template>There is a useful module in the second year � 'Professional Practice.' That helps to give a good idea of potential career ideas.</template></category>
-<category><pattern>WHAT IS PROFESSIONAL PRACTISE</pattern><template>You are given a selection of jobs to apply for and have to create a CV/ covering letter and go to a pretend interview, it's not quite as scary as it sounds haha.</template></category>
-<category><pattern>IS THIS COURSE THROUGH LINCOLN</pattern><template>Yeah, the first 2 years are at Lindsey through Lincoln, and they your final year is done at Lincoln.</template></category>
-<category><pattern>WHAT MADE YOU CHOOSE TO STUDY HERE INSTEAD OF GOING STRAIGHT TO LINCOLN</pattern><template>The course was local which was more useful to me personally.</template></category>
-<category><pattern>DID YOU ENJOY THE FIRST YEAR OR SECOND YEAR MORE</pattern><template>I enjoyed a mixture of both, I think it depends what subjects you prefer haha..</template></category>
-<category><pattern>HOW MANY DAYS A WEEK IS THE COURSE</pattern><template>The course is two full days, although its obviously advisable to work outside of college too..</template></category>
-<category><pattern>HOW MANY DAYS A WEEK DO YOU SPEND AT COLLEGE</pattern><template>The course is two full days, although its obviously advisable to work outside of college too..</template></category>
-<category><pattern>HOW MUCH IS IT</pattern><template>As far as I know it's around £5995, but checking student finance can confirm this.</template></category>
-<category><pattern>WHO TEACHES YOU</pattern><template>We currently have 2 tutors, Dave and Steve.</template></category>
-<category><pattern>CAN YOU GET EXTRA HELP</pattern><template>Yeah extra help is available if you feel like you're stuck with something.</template></category>
-<category><pattern>WHICH LANGUAGES HAVE YOU LEARNT</pattern><template> We learnt Python during the programming module, but we also used languages like HTML, CSS, PHP and SQL during the web and database modules. </template></category>
-<category><pattern>WHAT DO YOU DO IN PROGRAMMING</pattern><template> We learnt how to use Python and built a small application, was quite a good module to be fair. </template></category>
-<category><pattern>WHAT'S PROGRAMMING LIKE</pattern><template> We learnt how to use Python and built a small application, was quite a good module to be fair. </template></category>
-<category><pattern>IS PROGRAMMING HARD</pattern><template> Parts of it were but I did enjoy it, there's plenty of support and resources available. </template></category>
-<category><pattern>WHAT DO YOU DO IN MATHS</pattern><template> Hope you like algebra! There is a mixture of computer related maths, but it's not too difficult. </template></category>
-<category><pattern>WHAT IS MATHS LIKE </pattern><template> Hope you like algebra! There is a mixture of computer related maths, but it's not too difficult. </template></category>
-<category><pattern>WHAT DO YOU DO IN PROBLEM SOLVING</pattern><template> It was quite a strange module, wasn't expecting it at all, we were given cryptic questions to solve in teams, pretty interesting though! </template></category>
-<category><pattern>IS PROBLEM SOLVING HARD</pattern><template> Kind of, but it's pretty interesting, and I think it's based more on the team work side of things. </template></category>
-<category><pattern>IS COMPUTER ARCHITECTURE HARD</pattern><template> Kind of, it wasn't really my kinda thing, but help was available. </template></category>
-<category><pattern>WHAT'S COMPUTER ARCHITECTURE</pattern><template> Mainly learning about the inner workings of a computer. </template></category>
-<category><pattern>WHAT DO YOU DO IN PROJECT MANAGEMENT</pattern><template> Project management taught us about using different project planning tools and methodologies to manage projects. </template></category>
-<category><pattern>WHAT DO YOU DO IN HCI</pattern><template> You learn about ways individuals interact with computers and techniques used when trying to design something for a specific target audience. </template></category>
-<category><pattern>WHAT DO YOU DO IN HUMAN COMPUTER INTERACTION</pattern><template> You learn about ways individuals interact with computers and techniques used when trying to design something for a specific target audience. </template></category>
+<category>
+<pattern>IS THE COURSE HARD</pattern>
+<template>
+<random>
+<li>Some of the modules are difficult, but most are alright, I guess it's expected to be pretty hard if you're getting a degree out of it haha. Support is available if it's needed.</li>
+<li>The course is as hard as you make it, research will help, however help will always be available.</li>
+<li>It depends entirely on the person. For me, I found the Business modules the hardest and the Coding modules the easiest but that’s because I like programming.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHY DID YOU CHOOSE TO STUDY HERE</pattern>
+<template>
+<random>
+<li>I liked the fact that it was local, and the modules sounded interesting.</li>
+<li>I have been at the college 3 years before and knew how the system worked, the tutors were skilled and the atmosphere was also good.</li>
+<li>It was cheaper than going to a proper university.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH MODULE WERE YOU MOST LOOKING FORWARD TO</pattern>
+<template>
+<random>
+<li>I started the course with a keen interest in web development, so web authoring and web app development stuck out for me.</li>
+<li>Programming, I wanted to be a programmer to start.</li>
+<li>Programming and Data Structures because programming really interested me.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>DID YOU FEEL THESE MODULES WERE AS GOOD AS YOU EXPECTED</pattern>
+<template>
+<random>
+<li>I did enjoy them, but I also found other modules to be just as interesting.</li>
+<li>Some of the modules were disappointing however that was due to my inability to adapt to the situation.</li>
+<li>Yes.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>NOW THAT YOU HAVE TRIED ALL OF THE MODULES, WHICH DO YOU PREFER</pattern>
+<template>
+<random>
+<li>I still like web development, but I found databases quite interesting.</li>
+<li>I quite like networking, however it is not my strong point.</li>
+<li>Programming and Cloud Computing</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH IS YOUR FAVOURITE MODULE</pattern>
+<template>
+<random>
+<li>I  like web development, but I found databases quite interesting.</li>
+<li>Definitely networking.</li>
+<li>Cloud Computing.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM INTERESTED IN NETWORKING WHAT IS IT LIKE</pattern>
+<template>
+<random>
+<li>I personally find it quite interesting, but it's pretty hard, hope that doesn't put you off haha.</li>
+<li>A good amount of theory and practical In a sense. You learn how to create a network, how to connect devices in a program that demonstrates it, Packet Tracer.</li>
+<li>Its interesting, but hard to get your head around the theatrical side of networking.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>NOW THAT YOU HAVE TRIED ALL THE MODULES, WHICH DO YOU LIKE THE LEAST</pattern>
+<template>
+<random>
+<li>I think my least favourite has been cloud computing.</li>
+<li>HCI.</li>
+<li>I didn’t like Business Processes because it was too businessey for me.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH MODULE WAS THE HARDEST</pattern>
+<template>
+<random>
+<li>I found computer architecture the hardest, but hardware definitely isn't my strong point!</li>
+<li>i found Business Processes the hardest.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW DO I APPLY FOR THE COURSE</pattern>
+<template>
+<random>
+<li>You should apply for the course through UCAS.</li>
+<li>The UCAS website.</li>
+<li>You can apply through UCAS online, I think it costs around 12 pound to apply and you will also need the course code to apply to the correct institute</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT KIND OF JOB ARE YOU HOPING TO GET OUT OF THIS COURSE</pattern>
+<template>
+<random>
+<li>I'm not too sure at the moment, I'm still interested in web development but I would like to keep my options open.</li>
+<li>Perhaps something in networking, design, implementation, learning more of the coding, possibly in the long run looking at network security.</li>
+<li>I want to be a mobile applications developer, basically a programmer :)</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU GET ANY CAREER ADVICE</pattern>
+<template>
+<random>
+<li>There is a useful module in the second year 'Professional Practice.' That helps to give a good idea of potential career ideas.</li>
+<li>Professional Practice, a module in the second year, gives you a list of jobs to apply for.</li>
+<li>Advice is openly available, you just need to ask, there is also a module called Professional Practice that helps you create a CV and prepare you for interviews</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS PROFESSIONAL PRACTICE</pattern>
+<template>
+<random>
+<li>You are given a selection of jobs to apply for and have to create a CV/ covering letter and go to a pretend interview, it's not quite as scary as it sounds haha.</li>
+<li>Professional practice is the module all about CVs and how to conduct yourself in an interview.</li>
+<li>You practice writing a CV/ Cover letter along with having a mock interview, the ethical side is also covered.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>IS THIS COURSE THROUGH LINCOLN</pattern>
+<template>
+<random>
+<li>Yeah, the first 2 years are at Lindsey through Lincoln, and they your final year is done at Lincoln.</li>
+<li>The course is run through Lincoln, all modules are the same, just in smaller rooms and less people.</li>
+<li>Yep, you get accredited by Lincoln but study at North Lindsey HE.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT MADE YOU CHOOSE TO STUDY HERE INSTEAD OF GOING STRAIGHT TO LINCOLN</pattern>
+<template>
+<random>
+<li>The course was local which was more useful to me personally.</li>
+<li>I’ve been going to the college for a few years so it seemed the natural progression.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>DID YOU ENJOY THE FIRST YEAR OR SECOND YEAR MORE</pattern>
+<template>
+<random>
+<li>I enjoyed a mixture of both, I think it depends what subjects you prefer haha..</li>
+<li>The first year had more exciting modules than the second.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY DAYS A WEEK IS THE COURSE</pattern>
+<template>
+<random>
+<li>The course is two full days, although its obviously advisable to work outside of college too..</li>
+<li>Two days a week, Mon-Tue and Thurs-Fri dependant on the year.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY DAYS A WEEK DO YOU SPEND AT COLLEGE</pattern>
+<template>
+<random>
+<li>The course is two full days, although its obviously advisable to work outside of college too..</li>
+<li>Two days per week, but the library is open.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH IS IT</pattern>
+<template>
+<random>
+<li>As far as I know it's around 5995, but checking student finance can confirm this.</li>
+<li>The course cost between 5-6 thousand pounds however student finance can cover this.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO TEACHES YOU</pattern>
+<template>
+<random>
+<li>We currently have 2 tutors, Dave and Steve.</li>
+<li>There are 2 members of staff on hand, Steve and Dave.</li>
+<li>Stevie B and Dangerous Dave.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>CAN YOU GET EXTRA HELP</pattern>
+<template>
+<random>
+<li>Yeah extra help is available if you feel like you're stuck with something.</li>
+<li>Both students and tutors will help if asked.</li>
+<li>Yep. Theres plenty of help available, you just need to ask.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH LANGUAGES HAVE YOU LEARNT</pattern>
+<template>
+<random>
+<li>We learnt Python during the programming module, but we also used languages like HTML, CSS, PHP and SQL during the web and database modules.</li>
+<li>If you mean programming then python, otherwise English ;)</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU DO IN PROGRAMMING</pattern>
+<template>
+<random>
+<li>We learnt how to use Python and built a small application, was quite a good module to be fair.</li>
+<li>Program ;)</li>
+<li>You learn how to create simple programs.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT'S PROGRAMMING LIKE</pattern>
+<template>
+<random>
+<li>We learnt how to use Python and built a small application, was quite a good module to be fair. </li>
+<li>If you enjoy finding small errors in thousands of lines of code, it’s wonderful.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>IS PROGRAMMING HARD</pattern>
+<template>
+<random>
+<li>Parts of it were but I did enjoy it, there's plenty of support and resources available.</li>
+<li>If you have good attention to detail then it’s easy enough.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU DO IN MATHS</pattern>
+<template>
+<random>
+<li>Hope you like algebra! There is a mixture of computer related maths, but it's not too difficult. </li>
+<li>Additions… subtractions… algebraic functions…</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MATHS LIKE</pattern>
+<template>
+<random>
+<li>Hope you like algebra! There is a mixture of computer related maths, but it's not too difficult. </li>
+<li>I’m not a fan of maths.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU DO IN PROBLEM SOLVING</pattern>
+<template>
+<random>
+<li>It was quite a strange module, wasn't expecting it at all, we were given cryptic questions to solve in teams, pretty interesting though!</li>
+<li>Solve problems that aren’t obvious, using various methods to take information and use it to decipher codes.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>IS PROBLEM SOLVING HARD</pattern>
+<template>
+<random>
+<li>Kind of, but it's pretty interesting, and I think it's based more on the team work side of things.</li>
+<li>No it helps you to solve problems in a logical structure.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>IS COMPUTER ARCHITECTURE HARD</pattern>
+<template>
+<random>
+<li>Kind of, it wasn't really my kinda thing, but help was available.</li>
+<li>If you’re into computers then you should find it easy enough.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT'S COMPUTER ARCHITECTURE</pattern>
+<template>
+<random>
+<li>Mainly learning about the inner workings of a computer. </li>
+<li>It’s the interiors of computers, the systems that make them work.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU DO IN HCI</pattern>
+<template>
+<random>
+<li>You learn about ways individuals interact with computers and techniques used when trying to design something for a specific target audience. </li>
+<li>Learning about the interactions between humans and computers, concept designs, storyboards and more.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU DO IN HUMAN COMPUTER INTERACTION</pattern>
+<template>
+<random>
+<li>You learn about ways individuals interact with computers and techniques used when trying to design something for a specific target audience. </li>
+<li>Learning about the interactions between humans and computers, concept designs, storyboards and more.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU LEARN</pattern>
+<template>
+<random>
+<li>Programming and Data Structures, Problem Solving, Web Authoring, Maths for Computing, Computer Achitecture, Information Systems in Practice, Web App Development, Business Processes, Cloud Computing, Professional Practice, Project Management, Group Project, Networking and Databases.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT MODULES ARE THERE</pattern>
+<template>
+<random>
+<li>Programming and Data Structures, Problem Solving, Web Authoring, Maths for Computing, Computer Achitecture, Information Systems in Practice, Web App Development, Business Processes, Cloud Computing, Professional Practice, Project Management, Group Project, Networking and Databases.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT SUBJECTS ARE *</pattern>
+<template>
+<random>
+<li>Programming and Data Structures, Problem Solving, Web Authoring, Maths for Computing, Computer Achitecture, Information Systems in Practice, Web App Development, Business Processes, Cloud Computing, Professional Practice, Project Management, Group Project, Networking and Databases.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN INFORMATION SYSTEMS IN PRACTICE</pattern>
+<template>
+<random>
+<li>You learn the WHAT'S in business </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS INFORMATION SYSTEMS IN PRACTICE</pattern>
+<template>
+<random>
+<li>You learn the WHAT'S in business </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN NETWORKS *</pattern>
+<template>
+<random>
+<li>Learn about networks and stuff</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN NETWORKS</pattern>
+<template>
+<random>
+<li>Learn about networks and stuff</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN BUSINESS PROCESSES</pattern>
+<template>
+<random>
+<li>Learn the HOW'S in business</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS BUSINESS PROCESSES</pattern>
+<template>
+<random>
+<li>Learn the HOW'S in business</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN DATABASES</pattern>
+<template>
+<random>
+<li>Learn the theatrical side of creating databases and develop a database to practice</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN DATABASE SYSTEMS</pattern>
+<template>
+<random>
+<li>Learn the theatrical side of creating databases and develop a database to practice</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS DATABASE *</pattern>
+<template>
+<random>
+<li>Learn the theatrical side of creating databases and develop a database to practice</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN THE FIRST YEAR</pattern>
+<template>
+<random>
+<li></li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT SUBJECTS DO YOU DO IN THE FIRST YEAR</pattern>
+<template>
+<random>
+<li>Programming and Data Structures, Problem Solving, Web Authoring, Maths for Computing, Computer Achitecture, Information Systems in Practice, Web App Development</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT MODULES DO YOU DO IN THE FIRST YEAR</pattern>
+<template>
+<random>
+<li>Programming and Data Structures, Problem Solving, Web Authoring, Maths for Computing, Computer Achitecture, Information Systems in Practice, Web App Development</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO IN THE SECOND YEAR</pattern>
+<template>
+<random>
+<li></li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT SUBJECTS DO YOU DO IN THE SECOND YEAR</pattern>
+<template>
+<random>
+<li>Business Processes, Cloud Computing, Professional Practice, Project Management, Group Project, Networking and Databases.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT MODULES DO YOU DO IN THE SECOND YEAR</pattern>
+<template>
+<random>
+<li>Business Processes, Cloud Computing, Professional Practice, Project Management, Group Project, Networking and Databases.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS WEB APP DEVELOPMENT</pattern>
+<template>
+<random>
+<li>The creation of a interactive web page</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS WEB AUTHORING</pattern>
+<template>
+<random>
+<li>The creation of a static web page</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS GROUP PROJECT</pattern>
+<template>
+<random>
+<li>A team project with a topical theme, you have to create something as a group and reflect on your processes.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU DO IN PROJECT MANAGEMENT</pattern>
+<template>
+<random>
+<li>Project management taught us about using different project planning tools and methodologies to manage projects. </li>
+<li>Manage a project, seems simple enough.</li>
+</random>
+</template>
+</category>
+
+
 </aiml>

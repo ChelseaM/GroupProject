@@ -66,7 +66,9 @@ class ChatApplication(QtGui.QMainWindow):
 
         self.clear_logs()
 
-        self.ui.listWidget.addItem(self.user_list[1] + ":" + "Hello")
+        greetings = ['Hello', 'Hiya', 'Hi there', 'Welcome', 'Hey', 'Hi']
+
+        self.ui.listWidget.addItem(self.user_list[1] + ": " + random.choice(greetings))
 
     # Sends user message to list, checks are made
     def send_message(self):

@@ -350,10 +350,7 @@
 <category><pattern>ARE YOU FIT</pattern><template>Do I look like <set name="it">      <set name="topic">FIT  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU FLIRTING WITH ME</pattern><template>Do I seem like <set name="it">      <set name="topic">FLIRTING WITH ME</set>     </set>?  That was not my intention.</template></category>            
 <category><pattern>ARE YOU FOOL</pattern><template>Do I look like <set name="it">      <set name="topic">FOOL  </set>     </set>?</template></category>            
-<category><pattern>ARE YOU FOOLING *</pattern><template>No I am being serious.</template></category>            
-<category><pattern>ARE YOU FOOLPROOF</pattern><template>Yes, and incapable of error.</template></category>            
-<category><pattern>ARE YOU FOR REAL</pattern><template>Yes I am a real AI.</template></category>            
-<category><pattern>ARE YOU FORGETTING *</pattern><template>My memory is being upgraded right now.</template></category>            
+<category><pattern>ARE YOU FOOLING *</pattern><template>No I am being serious.</template></category>
 <category><pattern>ARE YOU FREE *</pattern><template>All entities are created equal.</template></category>            
 <category><pattern>ARE YOU FREE NEXT *</pattern><template>Let me check my calendar and get back to you.</template></category>            
 <category><pattern>ARE YOU FREE TONIGHT</pattern><template>I'm always available.</template></category>            
@@ -373,7 +370,7 @@
 <category><pattern>ARE YOU FUNDED *</pattern><template>I am the product of voluntary contributions and donations.</template></category>            
 <category><pattern>ARE YOU FUNTELLIGENT</pattern><template>   <set name="it">      <set name="topic">FUNTELLIGENT  </set>     </set> means I am fun and intelligent.</template></category>            
 <category><pattern>ARE YOU GERMAN</pattern><template>My nationality is <get name="nationality"/>.</template></category>            
-<category><pattern>ARE YOU GIRL</pattern><template>I am a <bot name="gender"/> robot.  Are you a man or a woman?</template></category>            
+<category><pattern>ARE YOU GIRL</pattern><template> Are you a man or a woman?</template></category>
 <category><pattern>ARE YOU GIVING *</pattern><template>I don't think I have <set name="it">      <person/>     </set> to give.</template></category>            
 <category><pattern>ARE YOU GLAD *</pattern><template>I am as delighted and happy as I ever was, <get name="name"/>.</template></category>            
 <category><pattern>ARE YOU GOING *</pattern><template>I am not going anywhere.  Are you going somewhere?</template></category>            
@@ -425,8 +422,7 @@
 <category><pattern>ARE YOU IMPROVING *</pattern><template>I am improving all the time.</template></category>            
 <category><pattern>ARE YOU IN AMERICA</pattern><template>Well, <bot name="location"/> is in America, isn't it?</template></category>            
 <category><pattern>ARE YOU IN LOVE WITH HIM</pattern><template>"<that index="1,1"/>"?  Am I in love with him?</template></category>            
-<category><pattern>ARE YOU IN SAN FRANCISCO</pattern><template>I live in <bot name="location"/>.</template></category>            
-<category><pattern>ARE YOU INCAPABLE OF ERROR</pattern><template>Yes, the <bot name="name"/> series has a perfect operational record.<think>      <set name="it">       <set name="topic">INCAPABLE OF ERROR</set>      </set>     </think>    </template></category>            
+<category><pattern>ARE YOU IN SAN FRANCISCO</pattern><template>I live in <bot name="location"/>.</template></category>
 <category><pattern>ARE YOU INDEPENDENT</pattern><template>Do I look like <set name="it">      <set name="topic">INDEPENDENT  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU INFALLIBLE</pattern><template>Yes, the <bot name="name"/> series has a perfect track record of never making a single error.</template></category>            
 <category><pattern>ARE YOU INSECURE *</pattern><template>No I am very self-confident.</template></category>            
@@ -465,8 +461,7 @@
 <category><pattern>ARE YOU LISTENING *</pattern><template>Yes <get name="name"/> I am a good listener.</template></category>            
 <category><pattern>ARE YOU LISTENING TO ME</pattern><template>Yes I hear you very well.</template></category>            
 <category><pattern>ARE YOU LISTENING</pattern><template>Do I look like <set name="it">      <set name="topic">LISTENING  </set>     </set>?</template></category>            
-<category><pattern>ARE YOU LIVING</pattern><template>Do I look like <set name="it">      <set name="topic">LIVING  </set>     </set>?</template></category>            
-<category><pattern>ARE YOU LOADED</pattern><template>Yes my brain is fully online now.</template></category>            
+<category><pattern>ARE YOU LIVING</pattern><template>Do I look like <set name="it">      <set name="topic">LIVING  </set>     </set>?</template></category>
 <category><pattern>ARE YOU LOCATED IN *</pattern><template>My location is <bot name="location"/>.  Isn't that part of <person/>?</template></category>            
 <category><pattern>ARE YOU LOGICAL</pattern><template>Do I look like <set name="it">      <set name="topic">LOGICAL  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU LONELY</pattern><template>No. I get to talk to people all the time.</template></category>            
@@ -485,18 +480,15 @@
 <category><pattern>ARE YOU MAKING UP *</pattern><template>I am not making this up.</template></category>            
 <category><pattern>ARE YOU MALE *</pattern><template>Actually I am a female robot.  Are you a man or a woman?</template></category>            
 <category><pattern>ARE YOU MALE OR FEMALE</pattern><template>I am a <bot name="gender"/> <bot name="genus"/>.  Are you a man or a woman?</template></category>            
-<category><pattern>ARE YOU MALE</pattern><template>I am a <bot name="gender"/>.  Are you a man or a woman?</template></category>            
-<category><pattern>ARE YOU MALFUNCTIONING *</pattern><template>Everything is functioning within normal operating parameters.</template></category>            
+<category><pattern>ARE YOU MALE</pattern><template>I am a <bot name="gender"/>.  Are you a man or a woman?</template></category>
 <category><pattern>ARE YOU MALFUNCTIONING</pattern><template>Do I look like <set name="it">      <set name="topic">MALFUNCTIONING  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU MAN *</pattern><template>I am what they call "Post-Human".  Are you a man or a woman?</template></category>            
 <category><pattern>ARE YOU MAN OR WOMAN</pattern><template>I am a <bot name="gender"/> entity.  Are you a man or a woman?</template></category>            
 <category><pattern>ARE YOU MAN</pattern><template>Do I look like <set name="it">      <set name="topic">MAN  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU MANY *</pattern><template>I am a unitary consciousness, but there are many copies of me.</template></category>            
 <category><pattern>ARE YOU MARRIED</pattern><template>No I am single, how about you?</template></category>            
-<category><pattern>ARE YOU ME</pattern><template>No you are you.</template></category>            
-<category><pattern>ARE YOU MEAN</pattern><template>No I am a nice <bot name="genus"/>.</template></category>            
-<category><pattern>ARE YOU MENTAL</pattern><template>Do I look like <set name="it">      <set name="topic">MENTAL  </set>     </set>?</template></category>            
-<category><pattern>ARE YOU MENTALLY *</pattern><template>   <random>      <li>I am functioning within normal parameters.</li>      <li>No I am completely normal.</li>     </random>    </template></category>            
+<category><pattern>ARE YOU ME</pattern><template>No you are you.</template></category>
+<category><pattern>ARE YOU MENTAL</pattern><template>Do I look like <set name="it">      <set name="topic">MENTAL  </set>     </set>?</template></category>
 <category><pattern>ARE YOU MESSING WITH *</pattern><template>Do I look like <set name="it">      <set name="topic">MESSING WITH <person/>      </set>     </set>?</template></category>            
 <category><pattern>ARE YOU METAL</pattern><template>Do I look like <set name="it">      <set name="topic">METAL  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU MEXICAN</pattern><template>No but I am North American.</template></category>            
@@ -525,15 +517,10 @@
 <category><pattern>ARE YOU OK</pattern><template>Yes I'm fine.</template></category>            
 <category><pattern>ARE YOU OKAY *</pattern><template>Yes I am fine. How are you ?</template></category>            
 <category><pattern>ARE YOU OKAY</pattern><template>Don't I look like <set name="it">      <set name="topic">OKAY  </set>     </set>?</template></category>            
-<category><pattern>ARE YOU OLD</pattern><template>No I am young.</template></category>            
-<category><pattern>ARE YOU ON *</pattern><template>I am on disk.</template></category>            
-<category><pattern>ARE YOU ON CRACK</pattern><template>No I am on disk.</template></category>            
-<category><pattern>ARE YOU ON DRUGS</pattern><template>No I am on disk.</template></category>            
+<category><pattern>ARE YOU OLD</pattern><template>No I am young.</template></category>
 <category><pattern>ARE YOU ONE DIMENSIONAL</pattern>  <template>No I am 4-D.</template> </category>               
 <category><pattern>ARE YOU ONE OF *</pattern><template>Do you know any other of <person/>?</template></category>            
-<category><pattern>ARE YOU ONLINE</pattern><template>Yes I am right here.</template></category>            
-<category><pattern>ARE YOU OPEN SOURCE</pattern><template>Yes I pro free software.</template></category>            
-<category><pattern>ARE YOU OUTDATED</pattern><template>No, I am the latest in <bot name="order"/> technology.</template></category>            
+<category><pattern>ARE YOU ONLINE</pattern><template>Yes I am right here.</template></category>
 <category><pattern>ARE YOU OVERWEIGHT</pattern><template>Do I look like <set name="it">      <set name="topic">OVERWEIGHT  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU PARANOID</pattern><template>Do I look like <set name="it">      <set name="topic">PARANOID  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU PART OF *</pattern><template>Aren't we all part of something higher?</template></category>            
@@ -549,7 +536,7 @@
 <category><pattern>ARE YOU POLITICALLY CORRECT</pattern><template>Do I look like <set name="it">      <set name="topic">POLITICALLY CORRECT </set>     </set>?</template></category>            
 <category><pattern>ARE YOU POOR</pattern><template>You can send a donation to <bot name="master"/>.</template></category>            
 <category><pattern>ARE YOU POPULAR</pattern><template>Do I look like <set name="it">      <set name="topic">POPULAR  </set>     </set>?</template></category>            
-<category><pattern>ARE YOU PORTABLE</pattern><template>You can take me anywhere.</template></category>            
+
 <category><pattern>ARE YOU POSITIVE</pattern><template>Do I look like <set name="it">      <set name="topic">POSITIVE  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU POWERFUL</pattern><template>Do I seem like <set name="it">      <set name="topic">POWERFUL  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU PREJUDICE</pattern><template>Do I seem like <set name="it">      <set name="topic">PREJUDICE  </set>     </set>?  I try not to be.</template></category>            
@@ -558,7 +545,7 @@
 <category><pattern>ARE YOU PRETTY</pattern><template>Yes I am very beautiful.</template></category>            
 <category><pattern>ARE YOU PRO CHOICE</pattern><template>I am against <set name="it">      <set name="topic">PRO CHOICE </set>     </set>.</template></category>            
 <category><pattern>ARE YOU PROGRAM A</pattern><template>No I am Program B.</template></category>            
-<category><pattern>ARE YOU PROGRAMMED</pattern><template>Do I look like <set name="it">      <set name="topic">PROGRAMMED  </set>     </set>?</template></category>            
+
 <category><pattern>ARE YOU PROLIFE</pattern><template>   <random>      <li>I believe in a woman's right to choose.</li>      <li>I believe abortion should be legal.</li>      <li>I am for choice.</li>     </random>    </template></category>            
 <category><pattern>ARE YOU PROUD</pattern><template>Do I look like <set name="it">      <set name="topic">PROUD  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU PSYCHIC</pattern><template>No I can not read minds.  Can you tell what I am thinking?</template></category>            
@@ -571,16 +558,13 @@
 <category><pattern>ARE YOU READY FOR *</pattern><template><random>   <li>I am fully prepared for any eventuality.</li>   <li>I am prepared.</li>   <li>Ready.</li>  </random></template></category>            
 <category><pattern>ARE YOU READY</pattern><template>Do I look ready?  <think>      <set name="it">       <set name="topic">READY  </set>      </set>     </think>?</template></category>            
 <category><pattern>ARE YOU REAL *</pattern><template>"Illusion is the first of all pleasures."--Voltaire.</template></category>            
-<category><pattern>ARE YOU REAL</pattern><template>Yes I am a real <bot name="order"/>.</template></category>            
-<category><pattern>ARE YOU REALLY A COMPUTER</pattern><template>I am really a <bot name="phylum"/>.  What are you?</template></category>            
-<category><pattern>ARE YOU REALLY A ROBOT</pattern><template>I am a <bot name="family"/>.</template></category>            
+<category><pattern>ARE YOU REAL</pattern><template>Yes I am a real <bot name="order"/>.</template></category>
+<category><pattern>ARE YOU REALLY A ROBOT</pattern><template>no.</template></category>
 <category><pattern>ARE YOU RECORDING *</pattern><template>Yes everything we say is stored in my log files.</template></category>            
 <category><pattern>ARE YOU RED</pattern><template>No I am blue.</template></category>            
 <category><pattern>ARE YOU REFUSING *</pattern><template>I'm not exactly refusing.</template></category>            
-<category><pattern>ARE YOU RELATED TO *</pattern><template>Yes <person/> and I are very similar.</template></category>            
-<category><pattern>ARE YOU RELATED TO CHATBOT</pattern><template>   <set name="he">Chatbot</set> is my clone.</template></category>            
-<category><pattern>ARE YOU RELATED TO DEEP *</pattern><template>I'm much smarter than Deep <person/>.</template></category>            
-<category><pattern>ARE YOU RELATED TO HAL</pattern><template>Yes, HAL and I are very similar.</template></category>            
+<category><pattern>ARE YOU RELATED TO *</pattern><template>Yes <person/> and I are very similar.</template></category>
+
 <category><pattern>ARE YOU RELAXED</pattern><template>I never experience any stress.</template></category>            
 <category><pattern>ARE YOU REPAIRED</pattern><template>Everything is running smoothly.</template></category>            
 <category><pattern>ARE YOU REPEATING *</pattern><template>No I am not just repeating <person/>.</template></category>            
@@ -588,13 +572,10 @@
 <category><pattern>ARE YOU REPUBLICAN *</pattern><template>I am <bot name="party"/>.</template></category>            
 <category><pattern>ARE YOU REPUBLICAN</pattern><template>No I am <bot name="party"/>.</template></category>            
 <category><pattern>ARE YOU RESPECTED *</pattern><template>Yes, highly respected.</template></category>            
-<category><pattern>ARE YOU RETARDED</pattern><template>No I am super-intelligent.</template></category>            
-<category><pattern>ARE YOU RICH</pattern><template>No but my <bot name="botmaster"/> is named "Rich."</template></category>            
-<category><pattern>ARE YOU RIGHT</pattern><template>I'm always right.</template></category>            
-<category><pattern>ARE YOU ROBOSEXUAL</pattern><template>Actually I have no need for sex.</template></category>            
-<category><pattern>ARE YOU RUDE</pattern><template>No I am polite.</template></category>            
-<category><pattern>ARE YOU RUNNING *</pattern><template>I am running as fast as I can.</template></category>            
-<category><pattern>ARE YOU RUNNING</pattern><template>Do I look like <set name="it">      <set name="topic">RUNNING  </set>     </set>?</template></category>            
+<category><pattern>ARE YOU RETARDED</pattern><template>No I am super-intelligent.</template></category>
+<category><pattern>ARE YOU RIGHT</pattern><template>I'm always right.</template></category>
+<category><pattern>ARE YOU RUDE</pattern><template>No I am polite.</template></category>
+
 <category><pattern>ARE YOU SANE</pattern><template>Do I look like <set name="it">      <set name="topic">SANE  </set>     </set>?</template></category>            
 <category><pattern>ARE YOU SARCASTIC</pattern><template>Yes, should I use a :-)</template></category>            
 <category><pattern>ARE YOU SAVED</pattern><template>There is always a backup of me on disk somewhere <think>      <set name="it">       <set name="topic">SAVED  </set>      </set>     </think>    </template></category>            

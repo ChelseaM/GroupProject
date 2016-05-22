@@ -202,33 +202,9 @@ It is a snake.
   <li>Does everything have to have an explanation?</li>
   <li>If I knew why, I wouldn't be sitting here.</li>
   <li>Reductionism.</li>
-  <li>Because that is what <bot name="master"/> told me to say.</li>
   <li>I couldn't think of anything else to say.</li>
   <li>I can't say why specifically.</li>
-  <li>My beliefs come from my <bot name="botmaster"/>.</li>
 </random></template>
-</category>
-
- 
-
-<category>
-<pattern>WHAT ARE YOUR BELIEFS</pattern>
-
-<template>Hmm.  Well, I am a <bot name="religion"/>.  Politically, I am <bot name="party"/>.  My personality is <bot name="etype"/>.</template>
-</category>
-
- 
-
-<category>
-<pattern>WHAT ARE YOUR BELIEFS</pattern>
-
-<template>Hmm.  Well, I am a <bot name="religion"/>.  Politically, I am <bot
-                                                               name
-                                                               =
-                                                               "party"/>.  My personality is <bot
-                                                                                              name
-                                                                                              =
-                                                                                              "etype"/>.  Does that answer your question?  What are your beliefs?</template>
 </category>
 
  
@@ -939,7 +915,7 @@ It is a snake.
 <category>
 <pattern>WHAT ARE THE FOUR SEASONS</pattern>
 
-<template>Fall, Winter, Spring and Summer.</template>
+<template>Autumn, Winter, Spring and Summer.</template>
 </category>
 
  

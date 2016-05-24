@@ -327,6 +327,17 @@
 </template>
 </category>
 
+<category>
+<pattern>CAN YOU GET SUPPORT</pattern>
+<template>
+<random>
+<li>Yeah extra help is available if you feel like you're stuck with something.</li>
+<li>Both students and tutors will help if asked.</li>
+<li>Yep. Theres plenty of help available, you just need to ask.</li>
+</random>
+</template>
+</category>
+
 
 <category>
 <pattern>WHICH LANGUAGES HAVE YOU LEARNT</pattern>
@@ -599,7 +610,7 @@
 <pattern>WHAT DO YOU DO IN THE SECOND YEAR</pattern>
 <template>
 <random>
-<li></li>
+<li>Business Processes, Cloud Computing, Professional Practice, Project Management, Group Project, Networking and Databases.</li>
 </random>
 </template>
 </category>
@@ -641,6 +652,24 @@
 </category>
 
 <category>
+<pattern>WHAT IS HCI</pattern>
+<template>
+<random>
+<li>The design of user interfaces</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HUMAN COMPUTER INTERACTION</pattern>
+<template>
+<random>
+<li>The design of user interfaces</li>
+</random>
+</template>
+</category>
+
+<category>
 <pattern>WHAT IS GROUP PROJECT</pattern>
 <template>
 <random>
@@ -659,6 +688,18 @@
 </random>
 </template>
 </category>
+
+<category>
+<pattern>*</pattern>
+<template>
+<random>
+<li>Boring lol.</li>
+<li>Pass.</li>
+</random>
+</template>
+</category>
+
+
 
 
 </aiml>

@@ -24,14 +24,6 @@ class ChatApplication(QtGui.QMainWindow):
         self.kernel = aiml.Kernel()
         self.kernel.setBotPredicate('gender', 'male')
         self.kernel.setBotPredicate('species', 'human')
-        #self.kernel.setBotPredicate('nationality',)
-        #self.kernel.setBotPredicate('location',)
-        #self.kernel.setBotPredicate('favouritecolor',)
-        #self.kernel.setBotPredicate('favouritemovie',)
-        #self.kernel.setBotPredicate('birthplace',)
-        #self.kernel.setBotPredicate('friends',)
-        #print self.kernel.getBotPredicate('gender')
-
 
         # connect the buttons to the methods
         QtCore.QObject.connect(self.ui.sendMessage_Button, QtCore.SIGNAL('clicked()'), self.send_message)
@@ -173,8 +165,6 @@ class ChatApplication(QtGui.QMainWindow):
     def save_conversation(self, message):
 
         file = open(str(self.user_list), 'a')
-
-        #self.response = (self.kernel.respond(message))
 
         file.write(self.user_list[0] + ": " + message + "\n")
         file.write(self.user_list[1] + ": " + self.response + "\n")
